@@ -1,4 +1,5 @@
 venv/
+_replace_candidates/
 __pycache__/
 *.pyc
 cache/

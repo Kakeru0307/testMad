@@ -9,10 +9,10 @@
 | `scripts/compute_mad.py` | MAD（MERT + MAUVE、`-log(MAUVE)`、**低いほど良い**） |
 | `scripts/midi_to_wav.py` | MIDI→WAV（FluidSynth + ローカル SF） |
 | `assets/soundfonts/` | SF2 置き場（`default.sf2` は git 外） |
-| `ref/midi/` | 参照 MIDI（チャートインスト） |
-| `ref/wav/` | 参照 WAV（**git 外**。Drive に上げて Colab で使う） |
-| `gen/midi/` | 本線 `generate_form.py` の生成 MIDI |
-| `gen/wav/` | 生成側 WAV（**git 外**。Drive に上げて Colab で使う） |
+| `ref/midi/` | 参照 MIDI **99本**（現行セット。長尺差し替え済み） |
+| `ref/wav/` | 参照 WAV **99本**（**git 外**。Drive へ。最大≈4.9分） |
+| `gen/midi/` | 本線 `generate_form.py` の生成 MIDI **100本** |
+| `gen/wav/` | 生成 WAV **100本**（**git 外**。Drive へ） |
 | `requirements.txt` | 依存（venv をここに作る） |
 | `colab_mad.ipynb` | Colab GPU 実行用 |
 
@@ -45,4 +45,6 @@ WAV（`ref/wav` / `gen/wav`）は git 対象外。ローカルで作った WAV �
 .\venv\Scripts\python.exe scripts\compute_mad.py ref\wav gen\wav --json-out mad_result.json
 ```
 
-本番の重い埋め込みは **Colab GPU**（`colab_mad.ipynb`）。ノートがリポを `git clone` し、WAV は Drive の `testMad/ref/wav`・`gen/wav` を読む。依存は `mad_metric` ＋ MERT 互換の `transformers` ピン（`<4.46`）。
+本番は **Colab**（`colab_mad.ipynb`）: リポを `git clone`、WAV は Drive の現行 `ref/wav`・`gen/wav` を使う。  
+依存は `mad_metric` ＋ `transformers>=4.40,<4.46`。埋め込みは `--batch-size 1`。  
+参照差し替え後は Drive の `ref/wav` を上げ直し、`ref_embs` だけ作り直す（`gen_embs` は残してよい）。
