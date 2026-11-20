@@ -1,0 +1,75 @@
+{
+  "id": "form_001",
+  "midi": "form_001.mid",
+  "text": "しんみりした夜のバッキング",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 125.0,
+  "va": [
+    -0.5790363550186157,
+    -0.762116014957428
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "resolve_4516",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "plagal_ish",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "source": "c:\\Users\\kake0\\github\\研究\\testMad\\gen\\midi\\form_069.mid",
+  "checkpoint": "checkpoints\\guitar_tech\\guitar_tech_apply_last.pt",
+  "seed": 1077445296,
+  "role": "lead",
+  "track_name": "Lead",
+  "target_indexes": [
+    1
+  ],
+  "labels": [
+    {
+      "note_index": 0,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 1,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.144395351409912
+      }
+    },
+    {
+      "note_index": 2,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1712369918823242
+      }
+    },
+    {
+      "note_index": 3,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.3687422275543213
+      }
+    },
+    {
+      "note_index": 4,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.3704144954681396
+      }
+    },
+    {
+      "note_index": 5,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 6,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 7,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.4938885838936473,
+        "rise_ms": 102.87381134367082,
+        "hold_frac": 0.5599936016858265,
+        "overshoot": 0.03946138688323062,
+        "vel_scale": 0.943757951259613
+      }
+    },
+    {
+      "note_index": 8,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 9,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 10,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 11,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 12,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 13,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 14,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 15,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 16,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 17,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 18,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 19,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 20,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 21,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0185487270355225
+      }
+    },
+    {
+      "note_index": 22,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.9363156796566177,
+        "rise_ms": 170.0046194501394,
+        "hold_frac": 0.4589211747067141,
+        "overshoot": 0.13136105750422927,
+        "vel_scale": 0.9540581703186035
+      }
+    },
+    {
+      "note_index": 23,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 24,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 25,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 26,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 27,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 28,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 29,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1454359292984009
+      }
+    },
+    {
+      "note_index": 30,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.9571831386182028,
+        "rise_ms": 95.66536007648452,
+        "hold_frac": 0.5552561282665218,
+        "overshoot": 0.09138915217357563,
+        "vel_scale": 0.9528511166572571
+      }
+    },
+    {
+      "note_index": 31,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 32,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 33,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1017873287200928
+      }
+    },
+    {
+      "note_index": 34,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 35,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 36,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 37,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 0.9386932238340628,
+        "rise_ms": 174.33088719407948,
+        "hold_frac": 0.5860444460797795,
+        "overshoot": 0.0494663334785832,
+        "vel_scale": 1.3416959047317505
+      }
+    },
+    {
+      "note_index": 38,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.4675865173339844
+      }
+    },
+    {
+      "note_index": 39,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.9169297099935088,
+        "rise_ms": 105.43525590869118,
+        "hold_frac": 0.46312596373567094,
+        "overshoot": 0.05211132438360869,
+        "vel_scale": 1.3986566066741943
+      }
+    },
+    {
+      "note_index": 40,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2300257682800293
+      }
+    },
+    {
+      "note_index": 41,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.021964938821128,
+        "rise_ms": 150.20764592908736,
+        "hold_frac": 0.49858253812140774,
+        "overshoot": 0.1333167809902172,
+        "vel_scale": 1.0451464653015137
+      }
+    },
+    {
+      "note_index": 42,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 43,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 44,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 0.9654985070228577
+      }
+    },
+    {
+      "note_index": 45,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 0.7801398948719351,
+        "rise_ms": 83.51539737417856,
+        "hold_frac": 0.4035558530609953,
+        "overshoot": 0.10032135143195132,
+        "vel_scale": 1.196624517440796
+      }
+    },
+    {
+      "note_index": 46,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2722365856170654
+      }
+    },
+    {
+      "note_index": 47,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.2274608947996613,
+        "rise_ms": 149.49345445305727,
+        "hold_frac": 0.33419521945808245,
+        "overshoot": 0.12029640355762716,
+        "vel_scale": 1.1964303255081177
+      }
+    },
+    {
+      "note_index": 48,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.271741271018982
+      }
+    },
+    {
+      "note_index": 49,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 0.9300251314626837,
+        "rise_ms": 146.8484070206441,
+        "hold_frac": 0.5060972778340849,
+        "overshoot": 0.043228299464767035,
+        "vel_scale": 1.1962361335754395
+      }
+    },
+    {
+      "note_index": 50,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 51,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 52,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 53,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 54,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 0.9845575094223022
+      }
+    },
+    {
+      "note_index": 55,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 56,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 57,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.4453612011124228,
+        "rise_ms": 136.74904099445834,
+        "hold_frac": 0.4339061115715534,
+        "overshoot": 0.04153309958804127,
+        "vel_scale": 1.3359849452972412
+      }
+    },
+    {
+      "note_index": 58,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.4576045274734497
+      }
+    },
+    {
+      "note_index": 59,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.996634376536167,
+        "rise_ms": 71.96309802943289,
+        "hold_frac": 0.49532142948388225,
+        "overshoot": 0.09133368887198419,
+        "vel_scale": 1.3961544036865234
+      }
+    },
+    {
+      "note_index": 60,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.5
+      }
+    },
+    {
+      "note_index": 61,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.3959851264953613
+      }
+    },
+    {
+      "note_index": 62,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0166622400283813
+      }
+    },
+    {
+      "note_index": 63,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 64,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 65,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 66,
+      "tech": "mute",
+      "params": {
+        "vel_scale": 1.1094119548797607,
+        "len_ratio": 0.6155123233218845,
+        "low_bias": 0.05942039508353
+      }
+    },
+    {
+      "note_index": 67,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 68,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 69,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 70,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 71,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 72,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 73,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 74,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 75,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 76,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 77,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 78,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 79,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 80,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 81,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 82,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 83,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 84,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 85,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 86,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 87,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 88,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 89,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 90,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 91,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 92,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 93,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 94,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 95,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 96,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.4566471576690674
+      }
+    },
+    {
+      "note_index": 97,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0127571821212769
+      }
+    },
+    {
+      "note_index": 98,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 99,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 100,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 101,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 102,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 103,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 104,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 105,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 106,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 107,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 108,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 109,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 110,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 111,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 112,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 113,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 114,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 115,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2925810813903809
+      }
+    },
+    {
+      "note_index": 116,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0050078630447388
+      }
+    },
+    {
+      "note_index": 117,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 118,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 119,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 120,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 121,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 122,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0650620460510254
+      }
+    },
+    {
+      "note_index": 123,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 124,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2189388275146484
+      }
+    },
+    {
+      "note_index": 125,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 126,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2188019752502441
+      }
+    },
+    {
+      "note_index": 127,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1031537055969238
+      }
+    },
+    {
+      "note_index": 128,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 129,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 130,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 131,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 132,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 133,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 134,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 135,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0297030210494995
+      }
+    },
+    {
+      "note_index": 136,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 137,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 138,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 139,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 140,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 141,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 142,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 143,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 144,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 145,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 146,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 147,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 148,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2126531600952148
+      }
+    },
+    {
+      "note_index": 149,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.4569867604686086,
+        "rise_ms": 104.91968688394476,
+        "hold_frac": 0.6869896163274648,
+        "overshoot": 0.0040256989954852,
+        "vel_scale": 1.25321626663208
+      }
+    },
+    {
+      "note_index": 150,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1716842651367188
+      }
+    },
+    {
+      "note_index": 151,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.4097058862409866,
+        "rise_ms": 99.93752580476485,
+        "hold_frac": 0.5434686640207919,
+        "overshoot": 0.0025566927646669068,
+        "vel_scale": 1.1452467441558838
+      }
+    },
+    {
+      "note_index": 152,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 153,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 154,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 155,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 156,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 157,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 158,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 159,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 160,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 0.9852535128593445
+      }
+    },
+    {
+      "note_index": 161,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 162,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 163,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 164,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 165,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 166,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 167,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 168,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 169,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 170,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 171,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 172,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 173,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 174,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 175,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 176,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 177,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 178,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 179,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 180,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 181,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 182,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 183,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 184,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0561569929122925
+      }
+    },
+    {
+      "note_index": 185,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 186,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 187,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 188,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 189,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 190,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 191,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 192,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 193,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0963637828826904
+      }
+    },
+    {
+      "note_index": 194,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 195,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 196,
+      "tech": "vibrato",
+      "params": {
+        "depth": 0.36710701038788573,
+        "rate_hz": 5.756378747174603,
+        "delay": 0.14092966554768402,
+        "phase": 3.546973524901574,
+        "fade_in_ms": 123.53637440754895,
+        "vel_scale": 0.9357215166091919
+      }
+    },
+    {
+      "note_index": 197,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 198,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 199,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 200,
+      "tech": "bend",
+      "params": {
+        "target_semitone": 1.8338377789391398,
+        "rise_ms": 140.48911306260183,
+        "hold_frac": 0.6960206091768179,
+        "overshoot": 0.010314528551408946,
+        "vel_scale": 0.930682361125946
+      }
+    },
+    {
+      "note_index": 201,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 202,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 203,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0108562707901
+      }
+    },
+    {
+      "note_index": 204,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 205,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 206,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 207,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 208,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 209,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 210,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1631354093551636
+      }
+    },
+    {
+      "note_index": 211,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1706873178482056
+      }
+    },
+    {
+      "note_index": 212,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 213,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 214,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.0490628480911255
+      }
+    },
+    {
+      "note_index": 215,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 216,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 217,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 218,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 219,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 220,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 221,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 222,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 223,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 224,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1644986867904663
+      }
+    },
+    {
+      "note_index": 225,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 226,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 227,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 228,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.2578327655792236
+      }
+    },
+    {
+      "note_index": 229,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 0.9802380204200745
+      }
+    },
+    {
+      "note_index": 230,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 231,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 232,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 233,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 234,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 235,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 236,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 237,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 238,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 239,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 240,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 241,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 242,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.086111307144165
+      }
+    },
+    {
+      "note_index": 243,
+      "tech": "harmonic",
+      "params": {
+        "vel_scale": 1.1038341522216797
+      }
+    },
+    {
+      "note_index": 244,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 245,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 246,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    },
+    {
+      "note_index": 247,
+      "tech": "normal",
+      "params": {
+        "vel_scale": 1.0
+      }
+    }
+  ]
+}

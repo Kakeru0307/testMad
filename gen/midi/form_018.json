@@ -1,0 +1,75 @@
+{
+  "id": "form_018",
+  "midi": "form_018.mid",
+  "text": "静かなコード進行",
+  "home_progression": "marusa",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 105.0,
+  "va": [
+    0.3632737398147583,
+    -1.0
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "simple_16",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "simple_15",
+      "bars": 8,
+      "beat_type": "metal_double",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

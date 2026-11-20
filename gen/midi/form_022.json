@@ -1,0 +1,75 @@
+{
+  "id": "form_022",
+  "midi": "form_022.mid",
+  "text": "張りつめたストローク",
+  "home_progression": "pop_axis",
+  "home_mode": "major",
+  "key": "Eb",
+  "bpm": 105.0,
+  "va": [
+    -0.0992211103439331,
+    0.7397279739379883
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "deceptive",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

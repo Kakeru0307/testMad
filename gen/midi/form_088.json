@@ -1,0 +1,66 @@
+{
+  "id": "form_088",
+  "midi": "form_088.mid",
+  "text": "弾むようなバッキング",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 115.0,
+  "va": [
+    0.6282665729522705,
+    -0.06756699085235596
+  ],
+  "template_id": "drop_chorus",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "resolve_4516",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "slide",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "plagal_ish",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,12 @@
+# testMad standalone — MAD (MERT + MAUVE)
+# Python 3.10–3.11 recommended. Avoid system 3.13.
+mad_metric>=0.0.6
+torch
+torchaudio
+transformers
+librosa
+soundfile
+numpy
+pandas
+tqdm
+mauve-text

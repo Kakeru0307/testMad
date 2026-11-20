@@ -1,0 +1,57 @@
+{
+  "id": "form_044",
+  "midi": "form_044.mid",
+  "text": "テンポよく進む伴奏",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 125.0,
+  "va": [
+    1.0,
+    -0.19663989543914795
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "canon_full",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

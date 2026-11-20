@@ -1,0 +1,75 @@
+{
+  "id": "form_006",
+  "midi": "form_006.mid",
+  "text": "緊迫したギターバッキング",
+  "home_progression": "minor_komuro",
+  "home_mode": "natural_minor",
+  "key": "C",
+  "bpm": 125.0,
+  "va": [
+    -0.11891180276870728,
+    0.6504995822906494
+  ],
+  "template_id": "standard",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_komuro",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_komuro",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "blues_12bar_short",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_komuro",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_natural_loop",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_komuro",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "form_079",
+  "midi": "form_079.mid",
+  "text": "追い立てられるようなバッキング",
+  "home_progression": "minor_simple_14",
+  "home_mode": "natural_minor",
+  "key": "F",
+  "bpm": 135.0,
+  "va": [
+    -1.0,
+    0.48644566535949707
+  ],
+  "template_id": "chorus_repeat",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "slide",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "minor_natural_loop",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_expand",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_simple_17",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "vibrato",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

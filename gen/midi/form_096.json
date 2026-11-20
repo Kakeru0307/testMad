@@ -1,0 +1,84 @@
+{
+  "id": "form_096",
+  "midi": "form_096.mid",
+  "text": "楽しい午後の伴奏",
+  "home_progression": "marusa",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 210.0,
+  "va": [
+    1.0,
+    -0.20165318250656128
+  ],
+  "template_id": "chorus_repeat",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "slide",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "classic_turnaround",
+      "bars": 8,
+      "beat_type": "metal_double",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "simple_15",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "form_099",
+  "midi": "form_099.mid",
+  "text": "元気が出るストローク",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 155.0,
+  "va": [
+    1.0,
+    1.0
+  ],
+  "template_id": "chorus_repeat",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "descending_bass",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "rock_vi_walkdown",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

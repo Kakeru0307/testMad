@@ -1,0 +1,84 @@
+{
+  "id": "form_000",
+  "midi": "form_000.mid",
+  "text": "焦りのある伴奏",
+  "home_progression": "deceptive",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 115.0,
+  "va": [
+    -0.08006751537322998,
+    -0.100067138671875
+  ],
+  "template_id": "extended_long",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "deceptive",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "deceptive",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "jpop_subdom",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "simple_16",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "canon_full",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "deceptive",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "deceptive",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

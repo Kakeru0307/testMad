@@ -1,0 +1,57 @@
+{
+  "id": "form_078",
+  "midi": "form_078.mid",
+  "text": "緊張感のあるバッキング",
+  "home_progression": "minor_simple_14",
+  "home_mode": "natural_minor",
+  "key": "F",
+  "bpm": 125.0,
+  "va": [
+    -0.38743627071380615,
+    0.7224626541137695
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_basic",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_simple_14",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

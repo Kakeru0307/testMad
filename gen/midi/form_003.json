@@ -1,0 +1,75 @@
+{
+  "id": "form_003",
+  "midi": "form_003.mid",
+  "text": "悲しい気持ちの伴奏",
+  "home_progression": "minor_marusa_like",
+  "home_mode": "natural_minor",
+  "key": "C",
+  "bpm": 115.0,
+  "va": [
+    -1.0,
+    -0.709033727645874
+  ],
+  "template_id": "standard",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_marusa_like",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_marusa_like",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "minor_komuro",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_marusa_like",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_marusa_like",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

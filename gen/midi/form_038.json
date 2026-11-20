@@ -1,0 +1,84 @@
+{
+  "id": "form_038",
+  "midi": "form_038.mid",
+  "text": "ゆっくり流れるギター",
+  "home_progression": "marusa",
+  "home_mode": "major",
+  "key": "A",
+  "bpm": 125.0,
+  "va": [
+    0.7668969631195068,
+    -1.0
+  ],
+  "template_id": "extended_long",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "classic_turnaround",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "normal",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

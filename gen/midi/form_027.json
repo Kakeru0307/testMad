@@ -1,0 +1,75 @@
+{
+  "id": "form_027",
+  "midi": "form_027.mid",
+  "text": "焦りのある伴奏",
+  "home_progression": "simple_45",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 85.0,
+  "va": [
+    -0.08006751537322998,
+    -0.100067138671875
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "rock_vi_walkdown",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "metal_double",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

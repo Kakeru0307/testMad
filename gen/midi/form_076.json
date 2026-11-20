@@ -1,0 +1,75 @@
+{
+  "id": "form_076",
+  "midi": "form_076.mid",
+  "text": "悲しい気持ちの伴奏",
+  "home_progression": "rock_I_IV_bVII_IV",
+  "home_mode": "major",
+  "key": "C",
+  "bpm": 115.0,
+  "va": [
+    -1.0,
+    -0.709033727645874
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "doowop",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

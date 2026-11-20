@@ -1,0 +1,57 @@
+{
+  "id": "form_035",
+  "midi": "form_035.mid",
+  "text": "静かなコード進行",
+  "home_progression": "komuro",
+  "home_mode": "major",
+  "key": "C",
+  "bpm": 115.0,
+  "va": [
+    0.3632737398147583,
+    -1.0
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "vibrato",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

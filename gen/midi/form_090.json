@@ -1,0 +1,75 @@
+{
+  "id": "form_090",
+  "midi": "form_090.mid",
+  "text": "明るい朝のギター",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "Ab",
+  "bpm": 165.0,
+  "va": [
+    0.8125303983688354,
+    -0.35305559635162354
+  ],
+  "template_id": "ballad",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "slide",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "two_five_one",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "canon_full",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "normal",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "form_097",
+  "midi": "form_097.mid",
+  "text": "沈んだ気持ちのギター",
+  "home_progression": "rock_bVII",
+  "home_mode": "major",
+  "key": "C",
+  "bpm": 105.0,
+  "va": [
+    -0.8433452844619751,
+    -1.0
+  ],
+  "template_id": "chorus_repeat",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "two_five_one",
+      "bars": 8,
+      "beat_type": "metal_double",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

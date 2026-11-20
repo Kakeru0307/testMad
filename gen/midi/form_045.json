@@ -1,0 +1,57 @@
+{
+  "id": "form_045",
+  "midi": "form_045.mid",
+  "text": "ゆったりしたバッキング",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "C",
+  "bpm": 125.0,
+  "va": [
+    1.0,
+    -1.0
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "plagal_ish",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "form_083",
+  "midi": "form_083.mid",
+  "text": "ゆるやかなストローク",
+  "home_progression": "minor_rock",
+  "home_mode": "natural_minor",
+  "key": "Eb",
+  "bpm": 125.0,
+  "va": [
+    0.6931476593017578,
+    -0.5358330607414246
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_rock",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_rock",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "disco",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_rock",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

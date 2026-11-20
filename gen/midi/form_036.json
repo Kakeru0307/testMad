@@ -1,0 +1,75 @@
+{
+  "id": "form_036",
+  "midi": "form_036.mid",
+  "text": "しんみりした夜のバッキング",
+  "home_progression": "minor_basic",
+  "home_mode": "natural_minor",
+  "key": "C",
+  "bpm": 125.0,
+  "va": [
+    -0.5790363550186157,
+    -0.762116014957428
+  ],
+  "template_id": "standard",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "minor_basic",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "slide",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_basic",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "rock_vi_walkdown",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "minor_basic",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_natural_loop",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "minor_basic",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

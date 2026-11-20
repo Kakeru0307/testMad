@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+cache/
+ref/wav/
+gen/wav/
+*.wav
+*.pt
+.ipynb_checkpoints/
+# Fluid R3 GM ~148MB — GitHub 100MB 制限のため同梱しない
+assets/soundfonts/*.sf2

@@ -1,0 +1,84 @@
+{
+  "id": "form_051",
+  "midi": "form_051.mid",
+  "text": "物悲しいコード進行",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "C",
+  "bpm": 135.0,
+  "va": [
+    -1.0,
+    -0.6881732940673828
+  ],
+  "template_id": "extended",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "canon_full",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "resolve_4516",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "canon_short",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

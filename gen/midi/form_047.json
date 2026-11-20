@@ -1,0 +1,57 @@
+{
+  "id": "form_047",
+  "midi": "form_047.mid",
+  "text": "緊迫したギターバッキング",
+  "home_progression": "pop_axis",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 125.0,
+  "va": [
+    -0.11891180276870728,
+    0.6504995822906494
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "four_floor",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

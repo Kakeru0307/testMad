@@ -1,0 +1,84 @@
+{
+  "id": "form_029",
+  "midi": "form_029.mid",
+  "text": "落ち着いた夜のコード",
+  "home_progression": "canon_short",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 85.0,
+  "va": [
+    0.6064262390136719,
+    -1.0
+  ],
+  "template_id": "extended",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "canon_short",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "canon_short",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "simple_14",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "classic_turnaround",
+      "bars": 8,
+      "beat_type": "metal_double",
+      "technique_type": "normal",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "canon_short",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "canon_short",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "form_061",
+  "midi": "form_061.mid",
+  "text": "追い立てられるようなバッキング",
+  "home_progression": "rock_bVII",
+  "home_mode": "natural_minor",
+  "key": "F",
+  "bpm": 115.0,
+  "va": [
+    -1.0,
+    0.48644566535949707
+  ],
+  "template_id": "extended",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "minor_rock",
+      "bars": 8,
+      "beat_type": "halftime_shuffle",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "rock_I_IV_bVII_IV",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "minor_natural_loop",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "normal",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "rock_bVII",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "form_095",
+  "midi": "form_095.mid",
+  "text": "穏やかな夕方の伴奏",
+  "home_progression": "simple_64",
+  "home_mode": "major",
+  "key": "G",
+  "bpm": 125.0,
+  "va": [
+    1.0,
+    -1.0
+  ],
+  "template_id": "short",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "simple_64",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "simple_64",
+      "bars": 8,
+      "beat_type": "sixteen_basic",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "plagal_ish",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "vibrato",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "simple_64",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

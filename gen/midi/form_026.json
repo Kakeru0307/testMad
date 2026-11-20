@@ -1,0 +1,84 @@
+{
+  "id": "form_026",
+  "midi": "form_026.mid",
+  "text": "張りつめたストローク",
+  "home_progression": "pop_axis",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 115.0,
+  "va": [
+    -0.0992211103439331,
+    0.7397279739379883
+  ],
+  "template_id": "chorus_repeat",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "slide",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "simple_45",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "komuro",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "bend",
+      "energy": "high"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "vibrato",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "classic_turnaround",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "pop_axis",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "bend",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

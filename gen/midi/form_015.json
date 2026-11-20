@@ -1,0 +1,75 @@
+{
+  "id": "form_015",
+  "midi": "form_015.mid",
+  "text": "弾むようなバッキング",
+  "home_progression": "marusa",
+  "home_mode": "major",
+  "key": "F",
+  "bpm": 175.0,
+  "va": [
+    0.6282665729522705,
+    -0.06756699085235596
+  ],
+  "template_id": "standard",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "hammer",
+      "energy": "mid"
+    },
+    {
+      "role": "pre_chorus",
+      "label": "Bメロ",
+      "progression": "rock_vi_walkdown",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "bend",
+      "energy": "mid"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "shuffle_eight",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "blues_12bar_short",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "vibrato",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "marusa",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}

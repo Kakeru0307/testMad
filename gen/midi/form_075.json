@@ -1,0 +1,66 @@
+{
+  "id": "form_075",
+  "midi": "form_075.mid",
+  "text": "緊迫したギターバッキング",
+  "home_progression": "subdom_start",
+  "home_mode": "major",
+  "key": "D",
+  "bpm": 125.0,
+  "va": [
+    -0.11891180276870728,
+    0.6504995822906494
+  ],
+  "template_id": "drop_chorus",
+  "sections": [
+    {
+      "role": "intro",
+      "label": "イントロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "normal",
+      "energy": "low"
+    },
+    {
+      "role": "verse",
+      "label": "Aメロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "eight_basic",
+      "technique_type": "normal",
+      "energy": "mid"
+    },
+    {
+      "role": "bridge",
+      "label": "間奏",
+      "progression": "canon_full",
+      "bars": 8,
+      "beat_type": "halftime",
+      "technique_type": "slide",
+      "energy": "mid"
+    },
+    {
+      "role": "chorus",
+      "label": "サビ",
+      "progression": "simple_16",
+      "bars": 8,
+      "beat_type": "sixteen_funk",
+      "technique_type": "choke_strong",
+      "energy": "high"
+    },
+    {
+      "role": "outro",
+      "label": "アウトロ",
+      "progression": "subdom_start",
+      "bars": 8,
+      "beat_type": "ballad_sparse",
+      "technique_type": "vibrato",
+      "energy": "low"
+    }
+  ],
+  "gate": {
+    "status": "pending",
+    "score_fit": null,
+    "note": ""
+  }
+}
