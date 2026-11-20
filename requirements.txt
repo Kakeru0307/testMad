@@ -1,5 +1,6 @@
-# testMad standalone — MAD (MERT + MAUVE)
-# Python 3.10–3.11 recommended. Avoid system 3.13.
+# testMad — MAD (MERT + MAUVE)
+# Colab 本番: ノートで `pip install mad_metric` だけでよい（torch は Colab 既存を使う）。
+# ローカルにフル入れしたいときだけこのファイルを使う。Python 3.10–3.11 推奨。
 mad_metric>=0.0.6
 torch
 torchaudio

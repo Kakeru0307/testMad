@@ -45,4 +45,4 @@ WAV（`ref/wav` / `gen/wav`）は git 対象外。ローカルで作った WAV �
 .\venv\Scripts\python.exe scripts\compute_mad.py ref\wav gen\wav --json-out mad_result.json
 ```
 
-本番の重い埋め込みは **Colab GPU**（`colab_mad.ipynb`）推奨。
+本番の重い埋め込みは **Colab GPU**（`colab_mad.ipynb`）。ノートでは `pip install mad_metric` のみ（`requirements.txt` 全入れはしない）。
