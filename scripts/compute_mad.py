@@ -7,6 +7,9 @@
   .\\venv\\Scripts\\python.exe scripts\\compute_mad.py ref\\wav gen\\wav
 
 1曲点数は出さず、フォルダ同士の距離を1つ出す。GPU 推奨（Colab 可）。
+
+mad_metric 0.0.6 は埋め込み .pt を GPU tensor のまま保存し、キャッシュ読込後に
+mauve へ渡すと `np.asarray(cuda tensor)` で落ちる。呼び出し前後で CPU 化を挟む。
 """
 
 from __future__ import annotations
@@ -14,11 +17,65 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from contextlib import contextmanager
 from pathlib import Path
+from typing import Any, Iterator
 
 
 def _count_wavs(directory: Path) -> int:
     return sum(1 for p in directory.iterdir() if p.is_file() and p.suffix.lower() == ".wav")
+
+
+def _features_to_numpy(features: Any) -> Any:
+    """mauve は CPU numpy 前提。CUDA / torch tensor をここで落とす。"""
+    if features is None:
+        return None
+    try:
+        import torch
+    except ImportError:
+        torch = None  # type: ignore[assignment]
+    if torch is not None and torch.is_tensor(features):
+        return features.detach().cpu().numpy()
+    import numpy as np
+
+    return np.asarray(features)
+
+
+@contextmanager
+def _mad_metric_cpu_patches() -> Iterator[None]:
+    """mad_metric の GPU キャッシュ保存／読込と mauve 直渡しを緩和する。"""
+    import torch
+    import mauve
+
+    orig_load = torch.load
+    orig_save = torch.save
+    orig_mauve = mauve.compute_mauve
+
+    def load_cpu(*args: Any, **kwargs: Any) -> Any:
+        kwargs.setdefault("map_location", "cpu")
+        return orig_load(*args, **kwargs)
+
+    def save_cpu(obj: Any, f: Any, *args: Any, **kwargs: Any) -> Any:
+        if torch.is_tensor(obj):
+            obj = obj.detach().cpu()
+        return orig_save(obj, f, *args, **kwargs)
+
+    def mauve_cpu(*args: Any, **kwargs: Any) -> Any:
+        if "p_features" in kwargs:
+            kwargs["p_features"] = _features_to_numpy(kwargs["p_features"])
+        if "q_features" in kwargs:
+            kwargs["q_features"] = _features_to_numpy(kwargs["q_features"])
+        return orig_mauve(*args, **kwargs)
+
+    torch.load = load_cpu  # type: ignore[assignment]
+    torch.save = save_cpu  # type: ignore[assignment]
+    mauve.compute_mauve = mauve_cpu  # type: ignore[assignment]
+    try:
+        yield
+    finally:
+        torch.load = orig_load  # type: ignore[assignment]
+        torch.save = orig_save  # type: ignore[assignment]
+        mauve.compute_mauve = orig_mauve  # type: ignore[assignment]
 
 
 def compute_mad_score(
@@ -53,18 +110,19 @@ def compute_mad_score(
         ) from exc
 
     # mad_metric API: eval_dir=生成, ref_dir=参照 → -log(MAUVE)
-    score = float(
-        compute_mad(
-            eval_dir=str(gen_dir.resolve()),
-            ref_dir=str(ref_dir.resolve()),
-            eval_embs_dir=str(gen_embs_dir.resolve()) if gen_embs_dir else None,
-            ref_embs_dir=str(ref_embs_dir.resolve()) if ref_embs_dir else None,
-            batch_size=batch_size,
-            model_name=model_name,
-            layer=layer,
-            aggregation=aggregation,
+    with _mad_metric_cpu_patches():
+        score = float(
+            compute_mad(
+                eval_dir=str(gen_dir.resolve()),
+                ref_dir=str(ref_dir.resolve()),
+                eval_embs_dir=str(gen_embs_dir.resolve()) if gen_embs_dir else None,
+                ref_embs_dir=str(ref_embs_dir.resolve()) if ref_embs_dir else None,
+                batch_size=batch_size,
+                model_name=model_name,
+                layer=layer,
+                aggregation=aggregation,
+            )
         )
-    )
     return score
 
 
