@@ -5,8 +5,13 @@ __pycache__/
 cache/
 ref/wav/
 gen/wav/
+ref_real/mp3/
+ref_real/wav/
+ref_real/meta/
 *.wav
 *.pt
+*.mp3
+*.zip
 .ipynb_checkpoints/
 # Fluid R3 GM ~148MB — GitHub 100MB 制限のため同梱しない
 assets/soundfonts/*.sf2
